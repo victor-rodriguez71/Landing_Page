@@ -45,10 +45,19 @@ nav .logo {
     color: #e5e7eb;
 }
 
+.header {
+    height: 500px;
+}
+
 header h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.header .header-text {
+    width: 500px;
+    margin-right: 50px;
 }
 
 #main-img {
@@ -75,10 +84,6 @@ button {
     color: #1f2937;
     background-color: #e5e7eb;
     font-style: italic;
-}
-
-.header {
-    height: 500px;
 }
 
 .header .container {
@@ -149,6 +154,7 @@ button {
 
 .quotes #person-name {
     text-align: right;
+    font-weight: bold;
 }
 
 .sign-up .container {
@@ -159,7 +165,6 @@ button {
     background-color: #3882f6;
     align-items: center;
     color: white;
-    margin: 0 25px;
 }
 
 .sign-up {
@@ -168,4 +173,11 @@ button {
 
 .sign-up button {
     outline: solid 1px white ;
+}
+
+.footer {
+    height: 50px;
+    align-content: center;
+    font-size: 10px;
+    text-align: center;
 }
