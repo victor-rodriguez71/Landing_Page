@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Times New Roman, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navigation .container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .links {
+    display: flex;
+}
+
+.navigation li {
+    padding: 15px;
+}
+
+.navigation, .header, .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#main-img {
+    height: 400px;
+}
+
+.examples img {
+    height: 150px;
+    outline: solid 5px blue;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 30px;
+
+}
+
+.testimony {
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-style: italic;
+}
+
+.header {
+    height: 500px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text button {
+    width: 150px;
+    margin: 15px 0 0 0;
+}
+
+.examples h1 {
+    margin-bottom: 50px;
+}
+
+.examples .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.examples {
+    height: 400px;
+}
+
+.examples .cards {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.examples .card {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75px;
+    align-self: center;
+    justify-content: center;
+}
+
+.card p {
+    padding-top: 10px;
+}
+
+.testimony {
+    padding: 100px 0;
+}
+
+.testimony .quotes {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.quotes #person-name {
+    text-align: right;
+}
+
+.sign-up .container {
+    border-radius: 10px;
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    background-color: #3882f6;
+    align-items: center;
+    color: white;
+    margin: 0 25px;
+}
+
+.sign-up {
+    padding: 50px 0;
+}
+
+.sign-up button {
+    outline: solid 1px white ;
+}
